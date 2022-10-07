@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .wrap {
+        border: 1px solid blue;
+      }
+      .haut {
+        text-align: center;
+        background-color: grey;
+        padding: 140px;
+        font-family: fantasy;
+        font-size: 25px;
+        font-weight: 900;
+        color: aliceblue;
+        background: url("https://images.partir.com/PYXeSryOvzR6EhW0jjruYgV29v4=/1920x/panoramique/senegal.jpg");
+      }
+      .nav {
+        display: block;
+      }
+      .contenu {
+        background: khaki;
+        border: 1px solid red;
+        height: 700px;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px;
+      }
+      .nav-tabs {
+        text-align: center;
+        border: 3px solid rgb(223, 230, 213);
+        padding: 20px;
+        margin: 0;
+      }
+      .nav-item {
+        display: inline;
+        border: 0px solid rgb(187, 192, 189);
+        margin: 0px;
+        padding: 50px;
+        font-family: fantasy;
+      }
+
+      .contenu {
+        display: flex;
+        font-family: fantasy;
+        text-align: center;
+        padding-left: 450px;
+      }
+
+      .side {
+        /* display: inline-block; */
+        border: 1px solid red;
+        height: 100%;
+        width: 39%;
+        font-family: fantasy;
+      }
+    
+      .dropbtn {
+        background-color: #04aa6d;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        font-family: fantasy;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: fantasy;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+      /* Style all font awesome icons */
+      .fa {
+        padding: 50px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="haut">
+        <h1>DÉCOUVRIR LE SÉNÉGAL</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">ACCEUIL</a>
+          </li>
+          <li class="dropdown">
+            <button class="dropbtn">DÉCOUVRIR</button>
+            <div class="dropdown-content" class="nav-link active">
+              <a href="cuisine.html">LA CUISINE</a>
+              <a href="lieux.html">LES LIEUX TOURISTIQUES</a>
+              <a href="sports.html">LES SPORTS</a>
+              <a href="religion.html">LES RELIGIONS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="savoirplus.html">EN SAVOIR PLUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="apropos.html">À PROPOS</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contenu">
+        <div class="main">
+          <h1>CONTACTEZ-NOUS</h1>
+          <address>
+            ÉCRIT PAR
+            <a href="mailto:MOUHAMMAD.SIMA@GMAIL.COM">MOUHAMMAD SIMA</a>.<br />
+            VISITEZ-NOUS AU 9000 PLACE DE DAKAR<br />
+            DECOUVRIRLESENEGAL.COM<br />
+            DAKAR, DAKAR<br />
+            SÉNÉGAL
+          </address>
+          
+        </div>
+      </div>
+      <footer class="footer">
+        <ul class="nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="plan.html">PLAN DU SITE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactez.html">CONTACTEZ-NOUS</a>
+          </li>
+
+      
+          <li class="nav-item">
+            <a><!-- Add icon library -->
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              />
+    
+              <!-- Add font awesome icons -->
+              <a
+                href="https://www.facebook.com/profile.php?id=100086703633422"
+                class="fa fa-facebook"
+              ></a>
+              <a href="https://twitter.com/MouhammadSima" class="fa fa-twitter"></a>
+              <a
+                href="https://www.instagram.com/simamouhammad/"
+                class="fa fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/mouhammad-sima-ab9313245/"
+                class="fa fa-linkedin"
+              ></a>
+              <li class="nav-item">
+                <a>CE SITE WEB EST PROPULSÉ PAR SIMA CORP.</a>
+              </li>
+             </li>
+              <li class="nav-item"><a> SUPPORTÉ PAR<img src="images/browser.png" /></a>
+          </li>
+          
+          
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
